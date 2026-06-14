@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+    <title>Portfolio Saya</title>
+    <style>
+       /* CSS Modern untuk membuat layout sejajar ke samping */
+        .kontainer-utama {
+            display: flex;          /* Mengaktifkan mode flexbox */
+            justify-content: space-between; /* Memberi jarak otomatis antar kotak */
+            gap: 20px;              /* Jarak antar kotak sebesar 20px */
+            margin-top: 20px;
+        }
+
+        .kolom-konten {
+            flex: 1;                /* Membagi rata ukuran kotak agar seimbang */
+            border: 1px solid #ccc; /* Memberi garis tipis abu-abu di sekelilingnya */
+            padding: 15px;          /* Jarak teks dari garis kotak */
+        }
+    </style>
+</head>
+
+    <title>Portfolio Saya</title>
+</head>
+<body>
+
+    <!-- BAGIAN ATAS: Nama dan Menu -->
+    <p><b>Adnand Alfath Prasetyo</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Home / Projects / Articles / Contact</p>
+    
+    <hr> <!-- Ini tag untuk membuat garis pembatas horizontal -->
+
+    <!-- BAGIAN HEADER -->
+    <center>
+        <h1>Frontend Developer</h1>
+        <p><i>html only with proper layout, no styling</i></p>
+    </center>
+
+    <hr>
+
+    <!-- BAGIAN KONTEN UTAMA (Menggunakan Tabel agar terbagi 3 kolom) -->
+    <table border="1" width="100%" cellpadding="10">
+        <tr>
+            <!-- Kolom 1: Projects -->
+            <td width="33%" valign="top">
+                <h3>Projects</h3>
+                <p>HTML Only Portfolio</p>
+                <hr>
+                <p>Calculator</p>
+                <hr>
+                <p>Quiz App</p>
+                <hr>
+                <p>Countdown Timer</p>
+            </td>
+
+            <!-- Kolom 2: Work Experience -->
+            <td width="33%" valign="top">
+                <h3>Work Experience</h3>
+                <p><b>roadmap.sh</b><br>Solved all the frontend projects</p>
+                <a href="#">Visit my Profile</a>
+                
+                <br><br><hr><br>
+
+                <h3>OpenSource Work</h3>
+                <p>Contributed to 50 opensource projects.</p>
+                <a href="#">Visit my GitHub Profile</a>
+            </td>
+
+            <!-- Kolom 3: Education -->
+            <td width="34%" valign="top">
+                <h3>Education</h3>
+                <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon.</p>
+                <p>Courses I took:</p>
+                <ul>
+                    <li>Object Oriented Programming</li>
+                    <li>Data Structures and Algorithms</li>
+                    <li>Web Engineering</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+<br><hr><br>
+
+    <!-- BAGIAN TESTIMONI -->
+    <h3>Reviews from my Teachers</h3>
+
+    <!-- Kita hilangkan border="1" dari table dan gunakan gaya baru -->
+    <table width="100%" cellspacing="15">
+        <tr>
+            <!-- Kolom 1 -->
+            <td width="33.33%" class="kotak-testi">
+                <p>"John doe was a brilliant student; always stood out with his assignments."</p>
+                <p><font color="gray">Jane Doe<br>Assistant Professor</font></p>
+            </td>
+
+            <!-- Kolom 2 -->
+            <td width="33.33%" class="kotak-testi">
+                <p>"John doe was a brilliant student; always stood out with his assignments."</p>
+                <p><font color="gray">Jane Doe<br>Assistant Professor</font></p>
+            </td>
+
+            <!-- Kolom 3 -->
+            <td width="33.33%" class="kotak-testi">
+                <p>"John doe was a brilliant student; always stood out with his assignments."</p>
+                <p><font color="gray">Jane Doe<br>Assistant Professor</font></p>
+            </td>
+        </tr>
+    </table
+ *><!-- BAGIAN KONTEN UTAMA MODERN -->
+    <div class="kontainer-utama">
+        
+        <!-- Kolom 1: Projects -->
+        <div class="kolom-konten">
+            <h3>Projects</h3>
+            <p>HTML Only Portfolio</p>
+            <hr>
+            <p>Calculator</p>
+            <hr>
+            <p>Quiz App</p>
+            <hr>
+            <p>Countdown Timer</p>
+        </div>
+
+        <!-- Kolom 2: Work Experience -->
+        <div class="kolom-konten">
+            <h3>Work Experience</h3>
+            <p><b>roadmap.sh</b><br>Solved all the frontend projects</p>
+            <a href="#">Visit my Profile</a>
+            
+            <br><br><hr><br>
+
+            <h3>OpenSource Work</h3>
+            <p>Contributed to 50 opensource projects.</p>
+            <a href="#">Visit my GitHub Profile</a>
+        </div>
+
+        <!-- Kolom 3: Education -->
+        <div class="kolom-konten">
+            <h3>Education</h3>
+            <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon.</p>
+            <p>Courses I took:</p>
+            <ul>
+                <li>Object Oriented Programming</li>
+                <li>Data Structures and Algorithms</li>
+                <li>Web Engineering</li>
+            </ul>
+        </div>
+
+    </div>
